@@ -1,0 +1,6 @@
+<?php
+/** @var $block \Learning\Crud\Block\User */
+?>
+<?php foreach ($block->getUsers() as $user) : ?>
+    <p><?=$user->getUsername()?></p>
+<?php endforeach; ?>

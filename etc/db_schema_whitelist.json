@@ -1,0 +1,13 @@
+{
+    "learning_user": {
+        "column": {
+            "user_id": true,
+            "username": true,
+            "email": true,
+            "telephone": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
